@@ -10,7 +10,6 @@ export default function Hero() {
       </p>
       <img className={heroStyles.logo} src={gif} alt="digitalstoffe_logo" />
       <div className={heroStyles.contact}>
-        <p>Irgendwann gibts hier mehr.</p>
         <a href="mailto:hallo@digitalstoffe.ch">hallo@digitalstoffe.ch</a>
       </div>
     </div>
