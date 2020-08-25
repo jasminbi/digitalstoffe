@@ -1,0 +1,39 @@
+.hero {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20vh;
+}
+
+.logo {
+  max-width: 80vw;
+}
+
+.contact {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* tablets */
+
+@media all and (min-width: 768px) {
+  .hero {
+    font-size: 15px;
+  }
+  .logo {
+    max-width: 30vw;
+  }
+}
+
+/* desktops */
+
+@media all and (min-width: 992px) {
+  .hero {
+    font-size: 15px;
+  }
+  .logo {
+    max-width: 30vw;
+  }
+}
