@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className={heroStyles.hero}>
       <p>
-        A T E L I E R <br /> F Ü R
+        A T E L I E R <br /> <br /> F Ü R
       </p>
       <img className={heroStyles.logo} src={gif} alt="digitalstoffe_logo" />
       <div className={heroStyles.contact}>

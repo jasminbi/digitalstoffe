@@ -16,6 +16,11 @@
   margin: auto;
 }
 
+a {
+  color: #f29f8d;
+  text-decoration: none;
+}
+
 /* tablets */
 
 @media all and (min-width: 768px) {
