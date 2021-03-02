@@ -1,7 +1,15 @@
 import React from "react"
 
 import Hero from "../components/hero"
+import Footer from "../components/footer"
 
-export default function Landing() {
-  return <Hero></Hero>
+function Landing() {
+  return (
+    <div>
+      <Hero />
+      <Footer />
+    </div>
+  )
 }
+
+export default Landing
