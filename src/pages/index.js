@@ -16,7 +16,11 @@ function Landing() {
         <Link to="/inside">
           <Card img={InsidePic} title="inside absence" />
         </Link>
-        <a href="https://giwww.nothere.space" target="_blank">
+        <a
+          href="https://giwww.nothere.space"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Card img={NotherePic} title="nothere.space" />
         </a>
       </div>
