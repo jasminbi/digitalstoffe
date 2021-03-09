@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./index.module.css"
+import { Link } from "gatsby"
 
 import Hero from "../components/hero"
 import Footer from "../components/footer"
@@ -12,8 +13,12 @@ function Landing() {
     <div>
       <Hero />
       <div className={styles.gallery}>
-        <Card img={InsidePic} title="inside absence" />
-        <Card img={NotherePic} title="nothere.space" />
+        <Link to="/inside">
+          <Card img={InsidePic} title="inside absence" />
+        </Link>
+        <a href="https://giwww.nothere.space" target="_blank">
+          <Card img={NotherePic} title="nothere.space" />
+        </a>
       </div>
       <Footer />
     </div>
