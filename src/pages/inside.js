@@ -1,5 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
+import Card from "../components/card"
+import Pic from "../img/inside/IMG_4003.jpeg"
+import Pic2 from "../img/inside/IMG_4012.jpeg"
+import Pic3 from "../img/inside/IMG_4018.jpeg"
+import Pic4 from "../img/inside/IMG_4020.jpeg"
 
 export default function Inside() {
   return (
@@ -37,6 +42,10 @@ export default function Inside() {
           von Sounddesign über Performance bis Informatik, bilden die Basis
           ihrer Arbeit.  
         </div>
+        <img src={Pic} style={{ width: "50vw", padding: "50px" }} />
+        <img src={Pic2} style={{ width: "50vw", padding: "50px" }} />
+        <img src={Pic3} style={{ width: "50vw", padding: "50px" }} />
+        <img src={Pic4} style={{ width: "50vw", padding: "50px" }} />
       </div>
     </Layout>
   )
