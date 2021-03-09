@@ -1,14 +1,14 @@
 import React from "react"
 import logo from "../img/waves.png"
 import { Link } from "gatsby"
+import styles from "./header.module.css"
 
 export default function Header() {
   return (
-    <div>
+    <header>
       <Link to="/">
-        <img src={logo}></img>
+        <img className={styles.logo} src={logo}></img>
       </Link>
-      <p>atelier für digitalstoffe.</p>
-    </div>
+    </header>
   )
 }
