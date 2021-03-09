@@ -1,4 +1,14 @@
 import React from "react"
+import logo from "../img/waves.png"
+import { Link } from "gatsby"
+
 export default function Header() {
-  return <h1>This is a header.</h1>
+  return (
+    <div>
+      <Link to="/">
+        <img src={logo}></img>
+      </Link>
+      <p>atelier für digitalstoffe.</p>
+    </div>
+  )
 }
