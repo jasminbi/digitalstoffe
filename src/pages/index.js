@@ -17,7 +17,7 @@ function Landing() {
           <Card img={InsidePic} title="inside absence" />
         </Link>
         <a
-          href="https://giwww.nothere.space"
+          href="https://www.nothere.space"
           target="_blank"
           rel="noopener noreferrer"
         >
