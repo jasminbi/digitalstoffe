@@ -10,6 +10,9 @@
 .image {
   max-width: 100%;
   transition: transform 500ms ease;
+  height: 300px;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .image:hover {
