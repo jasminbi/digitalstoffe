@@ -15,6 +15,15 @@ function Landing() {
     <div>
       <Hero />
       <P5 />
+      <div className={styles.about}>
+        Das Atelier für Digitalstoffe (°2020) ist ein Kollektiv bestehend aus
+        Jasmin Bissig, Annina Polivka und Franziska Bruecker. Sie haben sich
+        zusammen gefunden, um an der Schnittstelle von analogen und digitalen
+        Medien das Thema der Abwesenheit zu behandeln. Die Integration von neuen
+        Medien in Verbindung mit dem Fachwissen der einzelnen Künstlerinnen, von
+        Sounddesign über Performance bis Informatik, bilden die Basis ihrer
+        Arbeit.
+      </div>
       <div className={styles.gallery}>
         <Link to="/guerilla">
           <Card img={GuerillaPic} title="Guerilla Gallery" />

@@ -4,6 +4,11 @@ body {
   line-height: 1.5;
   text-align: justify;
 }
+
+.about {
+  text-align: center;
+  margin: 20vw;
+}
 .gallery {
   display: flex;
   flex-direction: row;
