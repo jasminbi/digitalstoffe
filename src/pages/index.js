@@ -7,6 +7,7 @@ import Footer from "../components/footer"
 import Card from "../components/card"
 import InsidePic from "../img/inside-absence.jpeg"
 import NotherePic from "../img/nothere.png"
+import GuerillaPic from "../img/guerilla.jpg"
 import P5 from "../components/p5"
 
 function Landing() {
@@ -15,6 +16,9 @@ function Landing() {
       <Hero />
       <P5 />
       <div className={styles.gallery}>
+        <Link to="/guerilla">
+          <Card img={GuerillaPic} title="Guerilla Gallery" />
+        </Link>{" "}
         <Link to="/inside">
           <Card img={InsidePic} title="inside absence" />
         </Link>
