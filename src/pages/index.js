@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./index.module.css"
 import { Link } from "gatsby"
+import instagram from "../img/instagram.png"
 
 import Hero from "../components/hero"
 import Footer from "../components/footer"
@@ -22,6 +23,11 @@ function Landing() {
         digitalen Medien das Thema «Abwesenheit» zu behandeln. Wir verbinden die
         Arbeit mit neuen Medien mit unserem Fachwissen und useren Interessen aus
         verschiedenen Bereichen von Sounddesign über Performance bis Informatik.
+      </div>
+      <div className={styles.icon}>
+        <a href="https://www.instagram.com/digitalstoffe/">
+          <img src={instagram} style={{ width: "30px" }} />
+        </a>
       </div>
       <div className={styles.gallery}>
         <Link to="/guerilla">
